@@ -1,0 +1,155 @@
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+/**************** general rules *******************/
+.boxid{
+    /* background-color: violet; */
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+}
+/********************** testata **********************/
+header{
+    z-index: 99;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    background-color: rgb(238, 127, 0);
+    padding: 1rem;
+}
+
+.boxid div{
+    /* border: 2px dashed black; */
+}
+
+header img{
+    width: 25%;
+}
+
+.left a, .right a{
+    line-height: 2rem;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.targa{
+
+}
+/*********************** mainnnnn **************************/
+
+
+
+.linea{
+    margin-top: 7rem;
+}
+/******************** foto ************************/
+.modello{
+    /* background-color: blueviolet; */
+    /* border: 2px dashed black; */
+    position: relative;
+    width: 100%;
+    min-height: 85%;
+}
+.foto{
+    /* background-color: aqua; */
+    margin: 10px;
+    height: 500px;
+    width: calc(100% / 3 - 20px);
+}
+    
+.sopra{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.modello img{
+    width: 100%;
+}
+/*/************* hover cuore************* */
+.linea i{
+    color: red;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+/************** hover sconto************* */
+.badje{
+    position: absolute;
+    left: 2px;
+    bottom: 3rem;
+}
+
+.sconto, .sosteni{
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.sconto{
+    background-color: orangered;
+}
+.sosteni{
+    background-color: green;
+    margin-left: 2px;
+}
+
+/********************** sotto *********************/
+.info{
+    /* background-color: brown; */
+    /* border: 2px dashed black; */
+    /* width: 100%; */
+    min-height: 15%;
+}
+
+.marca{
+    font-size: 0.8rem;
+    color: rgb(29, 29, 29);
+}
+
+.nome{
+    font-weight: 700;
+}
+
+.rosso{
+    color: rgb(243, 65, 0);
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+.sbarrato{
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-decoration: line-through;
+}
+
+/************** hover stuff ****************/
+
+.sopra{
+    display: none;
+}
+
+.foto:hover .sopra{
+    display: block;
+}
+
+.invisible{
+    display: none;
+}
+
+.foto:hover .invisible{
+    display: block;
+}
